@@ -1,10 +1,12 @@
+#!/bin/bash
+
 # Install brew for Mac
-if [[ uname == 'Darwin' ]]; then
+if [ "$(uname)" == 'Darwin' ]; then
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 fi
 
 # Install FiraCode font
-if [[ uname == 'Darwin' ]]; then
+if [ "$(uname)" == 'Darwin' ]; then
     brew tap homebrew/cask-fonts
     brew install --cask font-fira-code
 else
