@@ -1,0 +1,13 @@
+{
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.colorTheme": "One Dark Pro Flat",
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "MesloLGS NF",
+    "git.enableCommitSigning": true,
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "git.ignoreMissingGitWarning": true,
+    "dotfiles.repository": "https://github.com/Julien-Pires/dotfiles",
+    "dotfiles.installCommand": "~/dotfiles/install.sh",
+}
