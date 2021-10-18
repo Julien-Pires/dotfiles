@@ -10,7 +10,7 @@ if [ "$(uname)" == 'Darwin' ]; then
     brew tap homebrew/cask-fonts
     brew install --cask font-fira-code
 else
-    sudo apt install fonts-firacode
+    apt install fonts-firacode
 fi
 
 # Install Powerlevel10k
