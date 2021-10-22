@@ -10,14 +10,14 @@ if [ "$(uname)" == 'Darwin' ]; then
     brew tap homebrew/cask-fonts
     brew install --cask font-fira-code
 else
-    sudo apt install fonts-firacode
+    sudo apt install -y fonts-firacode
 fi
 
 # Install zsh
 if [ "$(uname)" == 'Darwin' ]; then
     brew install zsh
 else
-    sudo apt install zsh
+    sudo apt install -y zsh
 fi
 sudo chsh -s /usr/bin/zsh
 
