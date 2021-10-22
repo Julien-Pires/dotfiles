@@ -10,16 +10,16 @@ if [ "$(uname)" == 'Darwin' ]; then
     brew tap homebrew/cask-fonts
     brew install --cask font-fira-code
 else
-    apt install fonts-firacode
+    sudo apt install fonts-firacode
 fi
 
 # Install zsh
 if [ "$(uname)" == 'Darwin' ]; then
     brew install zsh
 else
-    apt install zsh
+    sudo apt install zsh
 fi
-chsh -s /usr/bin/zsh
+sudo chsh -s /usr/bin/zsh
 
 # Install Powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
