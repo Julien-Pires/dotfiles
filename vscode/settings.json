@@ -6,6 +6,7 @@
     "terminal.integrated.fontFamily": "MesloLGS NF",
     "git.enableCommitSigning": true,
     "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.defaultProfile.linux": "zsh",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "git.ignoreMissingGitWarning": true,
     "dotfiles.repository": "https://github.com/Julien-Pires/dotfiles",

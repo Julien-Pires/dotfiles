@@ -19,7 +19,7 @@ if [ "$(uname)" == 'Darwin' ]; then
 else
     sudo apt install -y zsh
 fi
-sudo chsh -s /usr/bin/zsh
+sudo chsh -s $(which zsh)
 
 # Install Powerlevel10k
 git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ~/powerlevel10k
